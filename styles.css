@@ -7,15 +7,16 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  color: #222;
-  background: #f7f5f0;
+  font-family: 'Andale Mono'; 
+  font-style: italic;
+  color: rgb(114, 89, 89);
+  background: #c8ebf7;
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #999;
+  color: rgb(169, 122, 122);
 }
 a:hover {
   color: #6633ff;
@@ -25,7 +26,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: rgb(249, 231, 201);
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -43,7 +44,6 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -62,44 +62,67 @@ header {
   overflow: hidden;
   padding-top: 60px;
 }
+
 header {
-  line-height: 1.5;
+  line-height: 1;
 }
 header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border: 1px solid rgb(250, 172, 172);
+  transition: all .25s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(0.8);
 }
+
+.sub-header {
+  text-align: center;
+  background: url('images/wind.jpg') no-repeat top center ;
+  background-size: cover;
+  background-position: center;
+  height: 10px;
+  padding-top: 200px; 
+}
+
+
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: rgb(250, 172, 172);
+  color: rgb(98, 46, 46) ;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: rgb(250, 172, 172);
+  color: rgb(249, 231, 201);
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
+  background: rgb(249, 231, 201);
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #f7fbb9;
+}
+
+.sub-card {
+  margin: 30px;
+  padding: 20px 80px 40px;
+  width: 500px;
+  text-align: left;
+  background: rgb(249, 231, 201);
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
 }
 
 ul.skills {
