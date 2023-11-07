@@ -78,14 +78,27 @@ header .profile-image:hover {
   transform: scale(0.8);
 }
 
-.sub-header {
+header .sub-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  /* border-radius: 50%; */
+  border: 1px solid rgb(250, 172, 172);
+  transition: all .25s;
+}
+header .sub-image:hover {
+  transform: scale(0.8);
+}
+
+
+/* .sub-header {
   text-align: center;
   background: url('images/wind.jpg') no-repeat top center ;
   background-size: cover;
   background-position: center;
   height: 10px;
   padding-top: 200px; 
-}
+} */
 
 
 .tag {
